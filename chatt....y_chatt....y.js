@@ -1,4 +1,4 @@
-const firebaseConfig = {
+ firebaseConfig = {
   apiKey: "AIzaSyCnByohvS2QkMcHPXVLGwZjCLNFAaEN7l0",
   authDomain: "chatty-chatty-79ceb.firebaseapp.com",
   databaseURL: "https://chatty-chatty-79ceb-default-rtdb.firebaseio.com",
@@ -8,8 +8,8 @@ const firebaseConfig = {
   appId: "1:1068334741638:web:3c3e0707b19db63a297907"
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+
+ app = initializeApp(firebaseConfig);
 
   function addroom()
   {
